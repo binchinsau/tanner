@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.container_custom {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  z-index: 1;
+}
+
+#logo img {
+  height: 80px;
+  margin-right: 50px;
+}
+
+.header_menu {
+  display: flex;
+  line-height: 80px;
+}
+
+.header_menu p {
+  margin: 0 24px;
+  font-weight: 700;
+}
+
+.header_menu p.text_while {
+  color: #fff;
+}
+
+.banner {
+  width: 100vw;
+  position: relative;
+}
+
+.banner img {
+  max-width: 67%;
+  position: absolute;
+  right: 0;
+}
+
+.banner_list {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.banner_list_cer {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_list > p {
+  margin: 5px 0;
+  font-weight: 200;
+}
+
+.banner_text {
+  position: absolute;
+  left: 250px;
+  top: 220px;
+}
+
+.banner_text p {
+  font-weight: 200;
+}
+
+.banner_text h2 {
+  letter-spacing: 6px;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.banner_text p:last-child {
+  color: #b8a47e;
+  margin-left: 100px;
+}
+
+.voyager_daypack {
+  margin-top: 110px;
+  padding: 100px 0;
+}
+
+.voyager_daypack img {
+  width: 65%;
+}
+
+.voyager_daypack_content {
+  position: relative;
+}
+
+.voyager_daypack_text .voyager_daypack_content1 {
+  position: absolute;
+  right: 35%;
+  top: 170px;
+}
+
+.voyager_daypack_content1 p {
+  color: #fff;
+  text-align: right;
+}
+
+.voyager_daypack_content1 p:first-child {
+  letter-spacing: 7px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  z-index: 1;
+}
+.voyager_daypack_content1 p:last-child {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.voyager_daypack_content2 {
+  position: absolute;
+  top: 130px;
+  right: 15%;
+}
+.voyager_daypack_content2 p {
+  font-weight: 200;
+  font-size: 12px;
+  color: #b8a47e;
+  margin: 15px 0;
+}
+
+.voyager_daypack_box {
+  position: absolute;
+  top: 100px;
+  right: 10%;
+  width: 635px;
+  height: 230px;
+  border: 2px solid #b8a47e;
+}
+
+.drifter_dopp {
+  background: #d5d5d5;
+  padding: 100px 0;
+}
+
+.drifter_dopp_content {
+  position: relative;
+  height: 500px;
+}
+
+.drifter_dopp .drifter_dopp_content img {
+  position: absolute;
+  right: 0;
+  width: 65%;
+}
+
+.drifter_dopp_content .drifter_dopp_content1 {
+  position: absolute;
+  right: 30%;
+  top: 150px;
+  color: #fff;
+}
+
+.drifter_dopp_content .drifter_dopp_content1 p:first-child {
+  letter-spacing: 7px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.drifter_dopp_content1 p:last-child {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.drifter_dopp_content .drifter_dopp_content2 {
+  position: absolute;
+  top: 110px;
+  left: 15%;
+}
+.drifter_dopp_content .drifter_dopp_content2 p {
+  font-weight: 200;
+  font-size: 12px;
+  color: #b8a47e;
+  margin: 15px 0;
+}
+
+.drifter_dopp_box {
+  position: absolute;
+  top: 100px;
+  left: 13%;
+  width: 605px;
+  height: 230px;
+  border: 2px solid #b8a47e;
+}
+
+.body {
+  padding-top: 110px;
+}
+
+.header_body h1 {
+  letter-spacing: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+.header_body p {
+  text-align: right;
+  margin-top: 20px;
+}
+.header_body span {
+  padding-right: 180px;
+  background: #b8a47e;
+  font-weight: 200;
+}
+
+.nomad_left img {
+  width: 100%;
+  height: 100%;
+}
+
+.nomad_right {
+  margin-top: 150px;
+}
+
+.nomad_right img {
+  height: 50px;
+}
+
+.nomad_right h3 {
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.nomad_right p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.nomad_right a {
+  color: #000;
+  font-weight: 700;
+}
+
+.nomad_right p:last-child {
+  margin-top: 20px;
+}
+
+.spruce_left {
+  margin-left: 150px;
+}
+
+.spruce_left img {
+  height: 80px;
+  transform: translateX(20px);
+}
+
+.spruce_right img {
+  width: 100%;
+  height: 100%;
+  transform: translate(-40px, -80px);
+}
+
+.spruce_left h4 {
+  background: #b8a47e;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.spruce_left p {
+  font-weight: 200;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 150px;
+}
+
+.spruce_left a {
+  margin-left: 150px;
+  color: #000;
+  font-weight: 700;
+}
+
+.field_left img {
+  width: 100%;
+  height: 100%;
+}
+
+.field_right {
+  margin-left: 20px;
+  width: 450px;
+  margin-top: 30px;
+}
+
+.field_right p {
+  text-align: justify;
+  font-weight: 200;
+  font-size: 11px;
+}
+.field_right a {
+  color: #000;
+  font-weight: 700;
+}
+
+.deny_left p {
+  position: absolute;
+  margin-top: 30px;
+  left: 34%;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 12px;
+  z-index: 1;
+  color: #fff;
+  text-shadow: 3px 4px 3px rgba(128, 128, 128, 1);
+}
+
+.deny_right {
+  padding: 20px;
+}
+
+.deny_right img {
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100px);
+}
+.side img {
+  width: 130px;
+  height: 130px;
+  margin: 0 15px;
+  transform: translateY(-100px);
+}
+
+.footer {
+  background: #ccc;
+  padding: 20px 0;
+}
+
+.footer_content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.footer_up_left img {
+  width: 100px;
+}
+
+.email_input {
+  width: 300px;
+  position: relative;
+}
+
+.email_input p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.email_input_button img {
+  width: 200px;
+  height: 40px;
+}
+.footer_up_bet_text_sub p:first-child {
+  font-size: 12px;
+}
+.footer_up_bet_text_sub p {
+  font-size: 12px;
+  font-weight: 200;
+  margin: unset;
+}
+
+.sub p {
+  font-weight: 200;
+  font-size: 12px;
+  margin: 0 20px;
+}
+
+.hide_on_desktop {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .hide_on_desktop {
+    display: block;
+  }
+  #logo img {
+    height: 55px;
+    margin-right: 10px;
+  }
+  .header {
+    height: unset;
+    height: 55px;
+  }
+
+  .header .icon_list_menu {
+    line-height: 50px;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+  }
+
+  .banner {
+    height: 290px;
+  }
+
+  .banner img {
+    max-width: 100%;
+    margin-top: 60px;
+    /* position: absolute;
+    right: 0; */
+  }
+  .banner_text {
+    position: absolute;
+    left: unset;
+    top: 255px;
+  }
+
+  .voyager_daypack {
+    margin-top: unset;
+    height: 530px;
+  }
+
+  .voyager_daypack img {
+    width: 100%;
+  }
+
+  .voyager_daypack_content1 p:first-child {
+    position: absolute;
+    z-index: 1;
+    top: unset;
+    top: -110px;
+  }
+
+  .voyager_daypack_content2 {
+    top: unset;
+  }
+
+  .voyager_daypack_box {
+    position: absolute;
+    top: 160px;
+    right: 10%;
+    width: 80%;
+    height: 230px;
+    border: 2px solid #b8a47e;
+  }
+
+  .drifter_dopp .drifter_dopp_content img {
+    width: unset;
+    width: 100%;
+  }
+
+  .drifter_dopp {
+    background: #d5d5d5;
+    padding: unset;
+    padding: 50px 0;
+  }
+
+  .drifter_dopp_box {
+    position: absolute;
+    top: 300px;
+    left: 13%;
+    width: 80%;
+    height: 230px;
+    border: 2px solid #b8a47e;
+  }
+
+  .drifter_dopp_content .drifter_dopp_content1 {
+    position: absolute;
+    right: 30%;
+    top: 120px;
+    color: #fff;
+  }
+
+  .drifter_dopp_content .drifter_dopp_content2 {
+    position: absolute;
+    top: 300px;
+    left: 15%;
+  }
+
+  .body {
+    padding-top: 50px;
+  }
+
+  .header_body h1 {
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .header_body span {
+    padding-right: unset;
+  }
+  .nomad_right {
+    margin-top: unset;
+  }
+
+  .spruce_left {
+    margin-left: unset;
+  }
+
+  .spruce_right img {
+    transform: unset;
+  }
+  .deny_right img {
+    transform: unset;
+  }
+  .deny_left p {
+    left: 14%;
+  }
+
+  .side img {
+    width: unset;
+    height: unset;
+    margin: unset;
+     transform: unset; 
+  }
+
+  .deny_left p{
+    margin-top: 118px;
+  } 
+}
